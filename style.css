@@ -1,9 +1,38 @@
+body {
+    background-color: #bada91;
+}
+h2 {
+    left: 120px;
+    position: relative;
+}
+p {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+}
+.container2 {
+    position: relative;
+    top: -130px;
+    margin: 0%;
+    height: 150px;
+}
+.container1 {
+    position: relative;
+    top: 15px;
+}
+.segundoT {
+    position: relative;
+    top: -140px;
+}
 .colors {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
 }
 .Red {
     background-color: red;
@@ -14,15 +43,110 @@
 
 }
 .Green {
-    background-color: #01ff02;
+    background-color: rgb(0, 255, 0);
 
 }
 .Purple {
-    
+    background-color: rgb(255, 0, 255);
+    left: 400px;
+    top: -380px;
 }
 .Aqua {
-    
+    background-color: rgb(0, 255, 255);
+    left: 400px;
+    top: -700px;
 }
 .Yellow {
-    
+    background-color: rgb(255, 255, 0);
+    left: 400px;    
+    top: -1020px;
+}
+.suma {
+    left: 216px;
+}
+.igual {
+    left: 365px;
+}
+.Red1 {
+    left: 100px;
+}
+.Green1 {
+    left: 250px;
+    top: -96px;
+}
+.Blue1 {
+    left: 400px;
+    top: -195px;
+}
+.Red2 {
+    left: 100px;
+}
+.suma1 {
+    top: -90px;
+}
+.Blue2 {
+    left: 250px;
+    top: -190px;
+}
+.igual1 {
+    top: -283px;
+}
+.Green2 {
+    left: 250px;
+    top: -505px;
+}
+.Green3 {
+    left: 100px;
+    top: -636px;
+}
+.Blue3 {
+    left: 100px;
+    top: -315px;
+}
+.Red3 {
+    left: 250px;
+    top: -830px;
+}
+.igual2 {
+    top: -600px;
+}
+.igual3 {
+    top: -920px;
+}
+.suma2 {
+    top: -410px;
+}
+.suma3 {
+    top: -726px;
+}
+
+.isolate {
+    isolation: isolate;
+    width: 50%;
+    text-align: center;
+}
+  
+.col {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    mix-blend-mode: lighten;
+    left: 600px;
+    top: 100px;
+}
+  
+.rojo {
+    background: fixed rgb(255, 0, 0);
+}
+  
+.verde {
+    background: fixed rgb(0, 255, 0);
+    margin-left: 200px;
+}
+  
+.azul {
+    background: fixed rgb(0, 0, 255);
+    margin-left: 100px;
+    margin-top: 200px;
 }
